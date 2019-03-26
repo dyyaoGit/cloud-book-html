@@ -1,0 +1,4 @@
+$desiWidth:10rem/750;
+@function px2-rem($n){
+  @return $n * $desiWidth;
+};
