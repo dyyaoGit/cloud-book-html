@@ -2,3 +2,23 @@ $desiWidth:10rem/750;
 @function px2-rem($n){
   @return $n * $desiWidth;
 };
+
+.mt-20 {
+  margin-top: px2-rem(20);
+}
+
+.mt-15 {
+  margin-top: px2-rem(15);
+}
+
+.mt-18 {
+  margin-top: px2-rem(18);
+}
+
+.flex {
+  display: flex;
+}
+
+.sp-bt {
+  justify-content: space-between;
+}
