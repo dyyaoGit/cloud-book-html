@@ -90,6 +90,10 @@
       .item-img-wrap {
         width: px2-rem(200);
         height: px2-rem(266);
+
+        .item-img {
+          height: 100%;
+        }
       }
       .item-article {
         position: relative;
